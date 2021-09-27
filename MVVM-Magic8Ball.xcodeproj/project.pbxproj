@@ -63,9 +63,9 @@
 		0E59618C26F4ED23007C535B /* MVVM-Magic8Ball */ = {
 			isa = PBXGroup;
 			children = (
-				2AB593C927015C02005D5C1A /* ViewModels */,
 				2AB593C427015B75005D5C1A /* Model */,
-				0E59618D26F4ED23007C535B /* main.swift */,
+				2AB593C927015C02005D5C1A /* ViewModels */,
+				2AB593CC27015C9F005D5C1A /* Views */,
 			);
 			path = "MVVM-Magic8Ball";
 			sourceTree = "<group>";
@@ -85,6 +85,14 @@
 				2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2AB593CC27015C9F005D5C1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E59618D26F4ED23007C535B /* main.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
