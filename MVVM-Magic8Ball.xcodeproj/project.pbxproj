@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E59618E26F4ED23007C535B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59618D26F4ED23007C535B /* main.swift */; };
+		2A3C649B270289B10091AE72 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C649A270289B10091AE72 /* HistoryView.swift */; };
 		2AB593C627015B8E005D5C1A /* Magic8Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C527015B8E005D5C1A /* Magic8Ball.swift */; };
 		2AB593C827015BD5005D5C1A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C727015BD5005D5C1A /* Session.swift */; };
 		2AB593CB27015C2B005D5C1A /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */; };
@@ -122,6 +123,7 @@
 /* Begin PBXFileReference section */
 		0E59618A26F4ED23007C535B /* macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E59618D26F4ED23007C535B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A3C649A270289B10091AE72 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		2AB593C527015B8E005D5C1A /* Magic8Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8Ball.swift; sourceTree = "<group>"; };
 		2AB593C727015BD5005D5C1A /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				2AB593D527015D14005D5C1A /* ContentView.swift */,
+				2A3C649A270289B10091AE72 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -701,6 +704,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AB593FD27015E83005D5C1A /* AdviceViewModel.swift in Sources */,
+				2A3C649B270289B10091AE72 /* HistoryView.swift in Sources */,
 				2AB593FE27015E83005D5C1A /* Magic8Ball.swift in Sources */,
 				2AB593FF27015E83005D5C1A /* Session.swift in Sources */,
 				2AB593D627015D14005D5C1A /* ContentView.swift in Sources */,

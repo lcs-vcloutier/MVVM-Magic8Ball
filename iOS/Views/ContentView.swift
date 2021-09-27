@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    // Make an instance of the view model to store questions and advice
-    @StateObject private var advisor = AdviceViewModel()
-
+    // Look at source of truth in Magic8BallApp.swift
+    @ObservedObject var advisor: AdviceViewModel
+    
     // Stores the current question being asked
     @State private var input = ""
     
@@ -51,26 +51,10 @@ struct ContentView: View {
             // Advice given
             Text(output)
             
-            // Show the list of questions and responses
-            List(advisor.sessions.reversed()) { session in
-                VStack(alignment: .leading) {
-                    Text(session.question)
-                        .bold()
-                    Text(session.response)
-                }
-            }
                         
             Spacer()
         }
         .padding()
         .navigationTitle("Magic 8 Ball")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            ContentView()
-        }
     }
 }
