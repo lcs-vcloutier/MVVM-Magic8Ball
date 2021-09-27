@@ -34,6 +34,9 @@
 		2AF6DD372701628700F850CE /* watchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6DD362701628700F850CE /* watchOSTests.swift */; };
 		2AF6DD412701628700F850CE /* watchOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6DD402701628700F850CE /* watchOSUITests.swift */; };
 		2AF6DD432701628700F850CE /* watchOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6DD422701628700F850CE /* watchOSUITestsLaunchTests.swift */; };
+		2AF6DD552701632F00F850CE /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */; };
+		2AF6DD562701632F00F850CE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C727015BD5005D5C1A /* Session.swift */; };
+		2AF6DD572701633700F850CE /* Magic8Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C527015B8E005D5C1A /* Magic8Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -709,6 +712,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF6DD572701633700F850CE /* Magic8Ball.swift in Sources */,
+				2AF6DD552701632F00F850CE /* AdviceViewModel.swift in Sources */,
+				2AF6DD562701632F00F850CE /* Session.swift in Sources */,
 				2AF6DD222701628200F850CE /* NotificationController.swift in Sources */,
 				2AF6DD202701628200F850CE /* ContentView.swift in Sources */,
 				2AF6DD262701628200F850CE /* ComplicationController.swift in Sources */,
