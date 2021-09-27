@@ -50,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E59618A26F4ED23007C535B /* MVVM-Magic8Ball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MVVM-Magic8Ball"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E59618A26F4ED23007C535B /* macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E59618D26F4ED23007C535B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2AB593C527015B8E005D5C1A /* Magic8Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8Ball.swift; sourceTree = "<group>"; };
 		2AB593C727015BD5005D5C1A /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		0E59618B26F4ED23007C535B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E59618A26F4ED23007C535B /* MVVM-Magic8Ball */,
+				0E59618A26F4ED23007C535B /* macOS */,
 				2AB593D127015D14005D5C1A /* iOS.app */,
 				2AB593E027015D1B005D5C1A /* iOSTests.xctest */,
 				2AB593EA27015D1B005D5C1A /* iOSUITests.xctest */,
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E59618926F4ED23007C535B /* MVVM-Magic8Ball */ = {
+		0E59618926F4ED23007C535B /* macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E59619126F4ED23007C535B /* Build configuration list for PBXNativeTarget "MVVM-Magic8Ball" */;
+			buildConfigurationList = 0E59619126F4ED23007C535B /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
 				0E59618626F4ED23007C535B /* Sources */,
 				0E59618726F4ED23007C535B /* Frameworks */,
@@ -223,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVVM-Magic8Ball";
+			name = macOS;
 			productName = "MVVM-Magic8Ball";
-			productReference = 0E59618A26F4ED23007C535B /* MVVM-Magic8Ball */;
+			productReference = 0E59618A26F4ED23007C535B /* macOS */;
 			productType = "com.apple.product-type.tool";
 		};
 		2AB593D027015D14005D5C1A /* iOS */ = {
@@ -320,7 +320,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E59618926F4ED23007C535B /* MVVM-Magic8Ball */,
+				0E59618926F4ED23007C535B /* macOS */,
 				2AB593D027015D14005D5C1A /* iOS */,
 				2AB593DF27015D1B005D5C1A /* iOSTests */,
 				2AB593E927015D1B005D5C1A /* iOSUITests */,
@@ -527,7 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7DL9Y9A7R;
+				DEVELOPMENT_TEAM = GR8H7BN82Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -538,7 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7DL9Y9A7R;
+				DEVELOPMENT_TEAM = GR8H7BN82Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -724,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E59619126F4ED23007C535B /* Build configuration list for PBXNativeTarget "MVVM-Magic8Ball" */ = {
+		0E59619126F4ED23007C535B /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E59619226F4ED23007C535B /* Debug */,
