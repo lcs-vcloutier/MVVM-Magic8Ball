@@ -9,11 +9,15 @@ import SwiftUI
 
 @main
 struct MVVM_Magic8BallApp: App {
+    // Make an instance of the view model to store questions and advice
+    // Source of truth
+    @StateObject private var advisor = AdviceViewModel()
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             TabView {
                 NavigationView {
-                    ContentView()
+                    ContentView(advisor: advisor)
                 }
                 .tabItem {
                     Image(systemName: "questionmark.circle.fill")
@@ -22,7 +26,7 @@ struct MVVM_Magic8BallApp: App {
                 }
                 
                 NavigationView {
-                    HistoryView()
+                    HistoryView(advisor: advisor)
                 }
                 .tabItem {
                     Image(systemName: "clock.fill")
