@@ -10,6 +10,7 @@
 		0E59618E26F4ED23007C535B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59618D26F4ED23007C535B /* main.swift */; };
 		2AB593C627015B8E005D5C1A /* Magic8Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C527015B8E005D5C1A /* Magic8Ball.swift */; };
 		2AB593C827015BD5005D5C1A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593C727015BD5005D5C1A /* Session.swift */; };
+		2AB593CB27015C2B005D5C1A /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		0E59618D26F4ED23007C535B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2AB593C527015B8E005D5C1A /* Magic8Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8Ball.swift; sourceTree = "<group>"; };
 		2AB593C727015BD5005D5C1A /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		0E59618C26F4ED23007C535B /* MVVM-Magic8Ball */ = {
 			isa = PBXGroup;
 			children = (
+				2AB593C927015C02005D5C1A /* ViewModels */,
 				2AB593C427015B75005D5C1A /* Model */,
 				0E59618D26F4ED23007C535B /* main.swift */,
 			);
@@ -74,6 +77,14 @@
 				2AB593C727015BD5005D5C1A /* Session.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2AB593C927015C02005D5C1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2AB593CA27015C2B005D5C1A /* AdviceViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB593CB27015C2B005D5C1A /* AdviceViewModel.swift in Sources */,
 				0E59618E26F4ED23007C535B /* main.swift in Sources */,
 				2AB593C627015B8E005D5C1A /* Magic8Ball.swift in Sources */,
 				2AB593C827015BD5005D5C1A /* Session.swift in Sources */,
